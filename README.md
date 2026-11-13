@@ -420,24 +420,8 @@ The supplied screenshots document the product UI, but they do not prove that eve
 | Security | Consent-first and encryption messaging on the public page | Treat as product commitments until implementation, testing and deployment controls are independently verified. |
 | External ecosystem | Hospitals, labs, pharmacies, insurance and device connections are part of the product vision | Do not claim live integrations unless their connectors are implemented and tested. |
 
-The screenshots contain illustrative dashboard values and sample profiles. They should not be interpreted as real patient measurements or clinical evidence.
 
-## 12. Roadmap
-
-A practical roadmap for evolving the prototype into a dependable product could include:
-
-- [ ] Validate and document the active frontend, backend and deployment architecture.
-- [ ] Complete authentication, session management and server-enforced role permissions.
-- [ ] Connect persistent storage for patient profiles, records and care workflows.
-- [ ] Add secure document upload, retrieval and retention controls.
-- [ ] Implement consent capture, revocation and auditable data access.
-- [ ] Integrate Android Health Connect and verify real wearable data sync on supported devices.
-- [ ] Connect appointment, prescription and lab workflows to their relevant services.
-- [ ] Implement and evaluate AI summarisation and OCR with clinician review and source traceability.
-- [ ] Add automated tests, security checks, observability and deployment documentation.
-- [ ] Conduct privacy, security, accessibility and clinical-safety reviews before real-world use.
-
-## 13. Contributing
+## 12. Contributing
 
 Contributions, issue reports and practical suggestions are welcome.
 
@@ -447,15 +431,11 @@ Contributions, issue reports and practical suggestions are welcome.
 4. Run the available checks and production build.
 5. Commit with a clear message and open a pull request describing the change.
 
-Do not include real patient data, identifiable medical documents, credentials or production secrets in issues, pull requests, screenshots or test fixtures.
 
 ## 14. License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 15. Disclaimer
-
-VIORA is a software project and product prototype. It is not a medical device and does not provide a diagnosis, treatment plan or emergency service. Information shown in the screenshots is illustrative. Always consult a qualified healthcare professional for medical decisions. Do not use this prototype to store or process real patient information unless the required security, privacy, clinical and regulatory controls have been implemented and reviewed.
 
 ---
 
